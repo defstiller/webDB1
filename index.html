@@ -12,14 +12,14 @@
 
     </head>
     <body>
-        <form method="POST">
+        <form>
             <h1 style="display: none;" id="h1">SIGN UP</h1>
             <label for="signupEmail">email</label>
             <input type="email" id="signupEmail" required />
 
             <label for="signupPassword">password</label>
             <input type="password" id="signupPassword" required />
-            <button id="btnSignUp" onclick="return handleSignUp()">Sign up</button>
+            <button id="btnSignUp" onsubmit="return handleSignUp()">Sign up</button>
         </form>
 
 
