@@ -1,0 +1,22 @@
+{
+  "name": "webdb1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defstiller/webDB1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defstiller/webDB1/issues"
+  },
+  "homepage": "https://github.com/defstiller/webDB1#readme",
+  "dependencies": {
+    "firebase": "^8.4.1"
+  }
+}
